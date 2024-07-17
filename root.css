@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root{
-    --btn-primary :#f5a623;
+    --primary-color :#f5a623;
+    --text-color1 :  #FFFFFF;
+    --text-color2 : #FFFFFF80;
+
+
 }
 
 
@@ -10,5 +14,7 @@
     padding: 0;
     margin: 0;
     font-family:"Rubik", sans-serif; 
-    font-weight: 400;
+
+    color:  #FFFFFF;
 }
+
