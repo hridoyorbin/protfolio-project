@@ -1,7 +1,7 @@
 .header-container {
-    background-color: #1f1f1f;
+    /* background-color: #1f1f1f; */
     padding: 20px;
-    height: 200vh;
+    height: 165vh;
     width: 100%;
 
 }
@@ -82,15 +82,7 @@ nav .logo img {
     color: var(--primary-color);
 }
 
-/* .text-content{
-    width:620px;
-    height: 461px;
-    top: 254px;
-    left: 200px;
-    gap: 32px;
-    opacity: 0px;
 
-} */
 .text-title{
     font-weight: 800;
     /* font-size: 30px; */
@@ -146,9 +138,11 @@ nav .logo img {
     align-items: center;
     justify-content: space-between;
 }
+
+
 .btn-hire {
- 
     color: #fff;
+    background-color: none;
     padding: 10px 20px;
     border-radius: 60px;
     display: flex;
@@ -189,4 +183,149 @@ nav .logo img {
     justify-content: space-between;
     align-items: center;
     margin: 300px 0px 200px 200px;
+}
+   /* Main section started */
+
+
+h4 {
+   font-style: italic;
+   font-weight: 600;
+   color: var(--text-color);
+}
+
+.experience {
+    padding: 40px;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(270.16deg, rgba(255, 177, 71, 0.1) 5.74%, rgba(255, 108, 99, 0.1) 50.64%, rgba(184, 106, 223, 0.1) 92.05%);
+    background-color: transparent;
+}
+.experience h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+.experience h3 {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.experience p {
+    margin-bottom: 30px;
+}
+
+.experience ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.experience li {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    justify-content: space-between;
+}
+span .comapny{
+    display: flex;
+}
+
+.experience li:last-child {
+    border-bottom: none;
+}
+
+.experience span {
+    font-size: 14px;
+    color:var(--text-color);
+    margin-bottom: 10px;
+    display: block;
+}
+
+.experience h4  {
+    font-size: 16px;
+  
+    color: var(--text-color);
+}
+
+
+.experience p {
+    font-size: 14px;
+    color:var(--text-color);
+    
+} 
+.story{
+    width: 460px;
+    height: 280px;
+    
+}
+.timeline{
+width: 580px;
+height: 390px;
+gap: 40px;
+margin-top: 100px;
+background-color: transparent;
+}
+
+.comapny{
+    font-size: 1px;
+    font-weight: normal;
+    margin-right: 20px;
+}
+.timeline ul {
+    list-style-type: none; /* Remove list bullets */
+    padding: 0;
+    margin: 0;
+}
+
+.timeline li {
+    margin-bottom: 20px; /* Add some space between list items */
+}
+
+.timeline li > div {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    justify-content: space-between; /* Space between span and h4 */
+}
+
+.timeline li > div span,
+.timeline li > div h4 {
+    margin: 0; /* Remove default margin */
+}
+
+.timeline li p {
+    margin: 5px 0 0 0; /* Add some space above p */
+}
+
+/* For the flex container wrapping span and h4 */
+.timeline li > div {
+    display: flex;
+    align-items: center;
+}
+
+.timeline li {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+}
+
+.timeline li > div,
+.timeline li p {
+    margin: 5px 0; /* Add margin for spacing */
+}
+p{
+    font-size: 10px;
+}
+.timeline li > div span,
+.timeline li > div p{
+    font-size: 18px;
+    font-family: 800;
+}
+
+.story{
+    background-color: none;
 }
