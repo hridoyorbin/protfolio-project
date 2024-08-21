@@ -387,3 +387,99 @@ p{
     width: 180px;
     height: 26px;
 }
+.prot-div{
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+.prot-title {
+    /* width: 290px; */
+    height: 48px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    size: 40px;
+    line-height: 47.4px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .prot-discription{
+     color: var(--text-color2);
+     font-size: 18px;
+    width: 541px;
+    height: 42px;
+    font-weight: 400;
+    line-height: 21.33px;
+    text-align: center;
+      
+  }
+
+  .sector-btn {
+    margin-top: 80px;
+    width: 760px;
+    margin: 40px auto;
+    height: 55px; 
+    border: 0.4px;
+    padding: 10px 20px 10px 20px;
+   
+  }
+ .toggel{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+ }
+ #ui{
+    padding: 10px 20px 10px 20px;
+    width: 105px;
+    height: 55px;
+    background-color: #000000;
+    border: 0.4px;
+ }
+#graphics{
+    padding: 10px 20px 10px 20px;
+    width: 220px;
+    height: 55px;
+    background-color: #000000;
+    border: 0.4px;
+}
+ #app{
+    width: 180px;
+    height: 55px;
+    padding: 10px 20px 10px 20px;
+    background-color: #000000;
+    border: 0.4px;
+ }
+ .protfolio-content{
+    width: 1040px;
+    justify-content: space-between;
+    height: 340px;
+    display: flex;
+    margin: 60px auto;
+
+ }
+ .script-content{
+    margin-top: 20px;
+ }
+ .title-one{
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: 30px;
+ }
+ .title-two{
+    margin-top: 20px;
+    margin-bottom: 10px;
+ }
+
+ .script-discription{
+    color: var(--text-color2);
+    width: 560px;
+    /* height: 150px; */
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    font-family: "Rubik", sans-serif;
+   margin-bottom: 20px;
+ }
+
