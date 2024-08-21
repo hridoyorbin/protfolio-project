@@ -480,6 +480,121 @@ p{
     font-weight: 400;
     line-height: 21.33px;
     font-family: "Rubik", sans-serif;
-   margin-bottom: 20px;
+    margin-bottom: 20px;
  }
+ .contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
 
+.header-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-container p {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ccc;
+    margin: 0;
+}
+
+.header-container h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin: 5px 0;
+    color: #fff;
+}
+
+.form-container {
+    background-color: #4a2e1f;
+    padding: 40px;
+    width: 600px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-container h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #777;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+}
+
+.form-group label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #ccc;
+    transition: 0.3s ease;
+    font-size: 14px;
+    pointer-events: none;
+}
+
+.form-group input:focus + label,
+.form-group input:not(:placeholder-shown) + label,
+.form-group textarea:focus + label,
+.form-group textarea:not(:placeholder-shown) + label {
+    top: -20px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.file-upload {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #ccc;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.file-label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.file-icon {
+    margin-right: 8px;
+}
+
+#file-upload {
+    display: none;
+}
+
+button {
+    padding: 15px;
+    background-color: #ff6600;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
